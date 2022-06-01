@@ -28,7 +28,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .service-web-design {
     background-image: url("./assets/home/mobile/image-web-design.jpg");
 }
@@ -39,6 +38,13 @@
 
 .service-graphic-design {
     background-image: url("./assets/home/mobile/image-graphic-design.jpg");
+}
+
+
+/* Steps Background */
+.step {
+    background-image: url("./assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
 }
 
 @media(min-width: 768px) {

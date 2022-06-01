@@ -1,10 +1,11 @@
 import { Hero } from "../components"
-import { Services } from "../containers"
+import { Services, Steps } from "../containers"
 const Home = () => {
   return (
     <div>
       <Hero />
       <Services />
+      <Steps />
     </div>
   )
 }
