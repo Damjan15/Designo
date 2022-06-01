@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        peach: "rgb(213, 129, 107)",
+        peach: "rgb(231, 129, 107)",
         black: "rgb(29, 28, 30)",
         lightPeach : "rgb(255, 173, 155)",
         darkGrey: "rgb(51, 49, 54)",
