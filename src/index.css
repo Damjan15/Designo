@@ -5,3 +5,17 @@
 .nav-item {
     @apply text-sm uppercase tracking-widest leading-4 font-normal lg:text-base hover:underline;
 }
+
+.hero {
+    background-image: url("./assets/home/desktop/bg-pattern-hero-home.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-bg {
+    background-image: url("./assets/home/desktop/image-hero-phone.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 573px;
+}
