@@ -10,6 +10,7 @@
     background-image: url("./assets/home/desktop/bg-pattern-hero-home.svg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-bg {
@@ -41,6 +42,9 @@
 }
 
 @media(min-width: 768px) {
+    .hero {
+        background-position: 150px;
+    }
     .service-web-design {
         background-image: url("./assets/home/tablet/image-web-design.jpg");
     }
@@ -55,6 +59,10 @@
 }
 
 @media(min-width: 1024px) {
+    .hero {
+        background-position: 650px;
+        background-size: contain;
+    }
     .service-web-design {
         background-image: url("./assets/home/desktop/image-web-design-small.jpg");
     }
