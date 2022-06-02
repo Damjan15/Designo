@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import arrowRight from "../assets/shared/desktop/icon-right-arrow.svg";
 
-const Service = ({ value, title }) => {
+const Service = ({ bg, title, row, col }) => {
   return (
     <div
-      className={`service w-full rounded-lg cursor-pointer ${value} group`}
+      className={`service w-full rounded-lg cursor-pointer ${bg} ${row ? row : ""} ${col ? col : ""} group`}
     >
       <div className="w-full h-full bg-black/80 rounded-lg group-hover:bg-peach/90">
         <div className="w-full h-full text-white flex flex-col justify-center space-y-4 items-center">
