@@ -10,18 +10,20 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-6 py-8">
       <div>
-        <img src={logo} className="h-7" alt="Designo Logo" />
+        <Link to="/">
+          <img src={logo} className="h-7" alt="Designo Logo" />
+        </Link>
       </div>
 
       <ul className="hidden items-center gap-8 md:flex">
         <li className="nav-item">
-          <Link to="/">Our Company</Link>
+          <Link to="/about">Our Company</Link>
         </li>
         <li className="nav-item">
-          <Link to="/">Locations</Link>
+          <Link to="/locations">Locations</Link>
         </li>
         <li className="nav-item">
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
 
       </ul>

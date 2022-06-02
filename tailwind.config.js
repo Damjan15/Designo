@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         peach: "rgb(231, 129, 107)",
         black: "rgb(29, 28, 30)",
-        lightPeach : "rgb(255, 173, 155)",
+        lightPeach: "rgb(255, 173, 155)",
         darkGrey: "rgb(51, 49, 54)",
         lightGrey: "rgb(241, 243, 245)" 
       },

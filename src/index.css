@@ -56,6 +56,29 @@
     background-position: center;
 }
 
+
+/* About Backgrounds */
+.about {
+    background-image: url("./assets/about/mobile/image-about-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-pattern {
+    background-image: url("./assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.talent {
+    background-image: url("./assets/about/mobile/image-world-class-talent.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media(min-width: 768px) {
     .hero {
         background-position: 150px;
@@ -73,6 +96,16 @@
     }
     .banner {
         background-position: 150px;
+    }
+    .about {
+        background-image: url("./assets/about/tablet/image-about-hero.jpg");
+    }
+    .about-pattern {
+        background-position: top;
+    }
+
+    .talent {
+        background-image: url("./assets/about/tablet/image-world-class-talent.jpg");
     }
     
 }
@@ -92,5 +125,12 @@
 
     .service-graphic-design {
         background-image: url("./assets/home/desktop/image-graphic-design.jpg");
+    }
+    .about {
+        background-image: url("./assets/about/desktop/image-about-hero.jpg");
+    }
+    
+    .talent {
+        background-image: url("./assets/about/desktop/image-world-class-talent.jpg");
     }
 }
