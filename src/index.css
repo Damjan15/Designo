@@ -47,6 +47,15 @@
     background-repeat: no-repeat;
 }
 
+
+/* Banner Background */
+.banner {
+    background-image: url("./assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+}
+
 @media(min-width: 768px) {
     .hero {
         background-position: 150px;
@@ -62,6 +71,10 @@
     .service-graphic-design {
         background-image: url("./assets/home/tablet/image-graphic-design.jpg");
     }
+    .banner {
+        background-position: 150px;
+    }
+    
 }
 
 @media(min-width: 1024px) {
