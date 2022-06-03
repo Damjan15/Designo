@@ -79,6 +79,23 @@
     background-position: center;
 }
 
+
+/* Locations Background */
+.map {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.map-canada {
+    background-image: url("./assets/locations/tablet/image-map-canada.png");
+}
+.map-australia {
+    background-image: url("./assets/locations/tablet/image-map-australia.png");
+}
+.map-uk {
+    background-image: url("./assets/locations/tablet/image-map-uk.png");
+}
+
 @media(min-width: 768px) {
     .hero {
         background-position: 150px;
@@ -106,6 +123,16 @@
 
     .talent {
         background-image: url("./assets/about/tablet/image-world-class-talent.jpg");
+    }
+
+    .map-canada {
+        background-image: url("./assets/locations/desktop/image-map-canada.png");
+    }
+    .map-australia {
+        background-image: url("./assets/locations/desktop/image-map-australia.png");
+    }
+    .map-uk {
+        background-image: url("./assets/locations/desktop/image-map-united-kingdom.png");
     }
     
 }

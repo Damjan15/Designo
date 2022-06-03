@@ -7,3 +7,4 @@ export { default as Project } from "./Project"
 export { default as AboutHero } from "./AboutHero";
 export { default as Talent } from "./Talent"
 export { default as Country } from "./Country"
+export { default as Location } from "./Location"
