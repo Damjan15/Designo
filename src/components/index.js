@@ -8,3 +8,4 @@ export { default as AboutHero } from "./AboutHero";
 export { default as Talent } from "./Talent"
 export { default as Country } from "./Country"
 export { default as Location } from "./Location"
+export { default as ContactForm } from "./ContactForm"

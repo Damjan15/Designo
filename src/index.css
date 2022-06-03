@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Custom Classes */
 .nav-item {
     @apply text-sm uppercase tracking-widest leading-4 font-normal lg:text-base hover:underline;
 }
+
+.input {
+    @apply bg-transparent w-full block text-white outline-none border-b-2 border-b-white py-2 pl-3 placeholder:text-white/50;
+}
+
+
+
+/* Backgrounds */
 
 .hero {
     background-image: url("./assets/home/desktop/bg-pattern-hero-home.svg");
@@ -96,6 +106,14 @@
     background-image: url("./assets/locations/tablet/image-map-uk.png");
 }
 
+/* Contact Background */
+.contact {
+    background-image: url("./assets/contact/desktop/bg-pattern-hero-desktop.svg");
+    background-size: 292px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 @media(min-width: 768px) {
     .hero {
         background-position: 150px;
@@ -134,6 +152,10 @@
     .map-uk {
         background-image: url("./assets/locations/desktop/image-map-united-kingdom.png");
     }
+    .contact {
+        background-position: left;
+        background-size: cover;
+    }
     
 }
 
@@ -159,5 +181,10 @@
     
     .talent {
         background-image: url("./assets/about/desktop/image-world-class-talent.jpg");
+    }
+
+    .contact {
+        background-position: center;
+        background-size: contain;
     }
 }

@@ -1,6 +1,12 @@
+import { ContactForm } from "../components"
+import { Locations } from "../containers"
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <ContactForm />
+      <Locations />
+    </div>
   )
 }
 
