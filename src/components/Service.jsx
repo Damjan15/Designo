@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import arrowRight from "../assets/shared/desktop/icon-right-arrow.svg";
 
-const Service = ({ bg, title, row, col }) => {
+const Service = ({ bg, title, row, col, link }) => {
   return (
     <div
       className={`service w-full rounded-lg cursor-pointer ${bg} ${row ? row : ""} ${col ? col : ""} group`}
@@ -12,7 +12,7 @@ const Service = ({ bg, title, row, col }) => {
 
           <div className="flex items-center justify-between">
             <Link
-              to="/"
+              to={`/category/${link}`}
               className="text-base font-medium uppercase tracking-widest mr-5"
             >
               View Project
