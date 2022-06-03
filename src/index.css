@@ -41,7 +41,7 @@
 }
 
 
-/* Steps Background */
+/* Steps Background */ 
 .step, .country {
     background-image: url("./assets/shared/desktop/bg-pattern-small-circle.svg");
     background-repeat: no-repeat;

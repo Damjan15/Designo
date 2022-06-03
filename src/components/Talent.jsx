@@ -1,22 +1,15 @@
-const Talent = () => {
+const Talent = ({ reverse, title, description }) => {
+  const normal = "lg:rounded-r-2xl"
+  const reversed = ""
   return (
-    <div className="w-full h-[736px] flex flex-col lg:flex-row">
-      <div className="talent rounded-t-2xl"></div>
-      <div className="bg-[#FDF3F0] w-full p-8 rounded-b-2xl">
-        <div className="max-w-lg mx-auto text-center">
-          <h3 className="text-peach text-4xl font-medium leading-tight mb-4">World-class talent</h3>
-          <p className="text-darkGrey">
-            We are a crew of strategists, problem-solvers, and technologists.
-            Every design is thoughtfully crafted from concept to launch,
-            ensuring success in its given market. We are constantly updating our
-            skills in a myriad of platforms. Our team is multi-disciplinary and
-            we are not merely interested in form — content and meaning are just
-            as important. We give great importance to craftsmanship, service,
-            and prompt delivery. Clients have always been impressed with our
-            high-quality outcomes that encapsulates their brand’s story and
-            mission.
-          </p>
-        </div>
+    <div className={`w-full h-full flex flex-col lg:${reverse ? "flex-row-reverse" : "flex-row"} lg:h-[640px] my-16`}>
+      <div className={`talent w-full h-80 rounded-t-2xl lg:rounded-t-none lg:h-full lg:${reverse ? "rounded-r-2xl" : "rounded-l-2xl"}`}></div>
+
+      <div className={`flex flex-col justify-center  bg-[#FDF3F0] text-center p-8 rounded-b-2xl lg:text-left lg:w-[1111px] ${reverse ? "lg:rounded-b-none lg:rounded-r-none lg:rounded-l-2xl" : "rounded-b-none lg:rounded-r-2xl"}`}>
+        <h2 className="text-peach font-medium text-4xl leading-9 mb-4 lg:text-5xl">{title}</h2>
+        <p className="text-darkGrey leading-6 lg:text-lg">
+          { description }
+        </p>
       </div>
     </div>
   );
