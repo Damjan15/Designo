@@ -1,4 +1,5 @@
 import { AboutHero } from "../components"
+import { Locations } from "../containers"
 
 const About = () => {
   return (
@@ -6,8 +7,7 @@ const About = () => {
       {/* About Hero Component */}
       <AboutHero />
       {/* Talent Box Component */}
-      {/* Locations Container */}
-        {/* Country Component */}
+      <Locations />
       {/* Talent Box Component */}
 
     </div>
