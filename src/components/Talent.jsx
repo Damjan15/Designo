@@ -1,6 +1,4 @@
 const Talent = ({ reverse, title, description }) => {
-  const normal = "lg:rounded-r-2xl"
-  const reversed = ""
   return (
     <div className={`w-full h-full flex flex-col lg:${reverse ? "flex-row-reverse" : "flex-row"} lg:h-[640px] my-16`}>
       <div className={`talent w-full h-80 rounded-t-2xl lg:rounded-t-none lg:h-full lg:${reverse ? "rounded-r-2xl" : "rounded-l-2xl"}`}></div>

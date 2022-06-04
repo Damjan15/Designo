@@ -8,6 +8,7 @@ const Navbar = () => {
   const [ openMenu, setOpenMenu ] = useState(false)
 
   return (
+    <>
     <nav className="flex items-center justify-between px-6 py-8">
       <div>
         <Link to="/">
@@ -34,6 +35,22 @@ const Navbar = () => {
         </button>
       </div>
     </nav>
+    { openMenu && (
+        <div className="bg-black rounded-b-2xl">
+          <ul className="text-white text-2xl uppercase space-y-4 p-8">
+            <li>
+              <Link to="/about">Our Company</Link>
+            </li>
+            <li>
+              <Link to="/locations">Locations</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </div>
+      )}
+    </>
   )
 }
 
